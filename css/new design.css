@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'cairo', 'tahoma',sans-serif;
+
+}
+
+
+/*
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-brand span{
+    color: #5f1782;
+    padding:5px;
+      background:#fff;
+    display: inline-block
+}
+.navbar-brand span:nth-child(1),.navbar-brand span:nth-child(6){
+    transform: rotate(-10deg);
+    margin-right: 10px
+}
+.navbar-brand span:nth-child(2),.navbar-brand span:nth-child(4),.navbar-brand span:nth-child(5),.navbar-brand span:nth-child(7){
+    transform: rotate(10deg);
+    margin-right: 8px
+}
+.navbar-brand span:nth-child(3){
+    margin-right: 8px
+}
+
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+.move {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    text-align: center;
+    display: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+*/
+/* /////////////////////////////// nav bar ///////////////////// */
+.navbar-brand i{
+    color: #008ec7 !important;
+    margin-right: 10px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #008ec7 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 19px;
+    transition: 0.5s;
+    font-weight: bold !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #008ec7 !important;
+}
+/* /////////////////////////////// nav bar ///////////////////// */
+/* /////////////////////////////// start home section///////////////////// */
+.home,.aboutus,.skills{
+    margin-top: 40px;
+}
+.complete {
+    color: #008ec7 !important;  
+    font-size: 40px;
+    margin-top: 10px;
+}
+.complete::after {
+    content: "";
+    padding-left: 5px;
+    animation: paragraph 8s infinite;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    /* border-right:2px solid #000; */
+}
+@keyframes paragraph {
+    0% {
+        content: ""
+    }
+
+    2% {
+        content: "F"
+    }
+
+    4% {
+        content: "Fr"
+    }
+
+    6% {
+        content: "Fro"
+    }
+
+    8% {
+        content: "Fron"
+    }
+
+    10% {
+        content: "Front"
+    }
+
+    12% {
+        content: "Front-"
+    }
+
+    14% {
+        content: "Front-E"
+    }
+
+    16% {
+        content: "Front-En"
+    }
+
+    18% {
+        content: "Front-End"
+    }
+
+    20% {
+        content: "Front-End D"
+    }
+
+    22% {
+        content: "Front-End De"
+    }
+
+    24% {
+        content:"Front-End Dev"
+    }
+
+    26% {
+        content: "Front-End Deve"
+    }
+
+    28% {
+        content: "Front-End Devel"
+    }
+
+    30% {
+        content: "Front-End Develo"
+    }
+
+    32% {
+        content: "Front-End Develop"
+    }
+
+    34% {
+        content: "Front-End Develope"
+    }
+
+    36% {
+        content: "Front-End Developer"
+    }
+
+     40% {
+        content: "Front-End Develope"
+    }
+
+    44% {
+        content: "Front-End Develop"
+    }
+    46% {
+        content:"Front-End Develo"
+    }
+    48% {
+        content: "Front-End Devel"
+    }
+    50% {
+        content: "Front-End Deve"
+    }
+    52%{
+        content: "Front-End Dev"
+    }
+    54%{
+        content: "Front-End De"
+    }
+    56%{
+        content: "Front-End D"
+    }
+    58%{
+        content: "Front-End"
+    }
+    60%{
+        content: "Front-En"
+    }
+    62%{
+        content: "Front-E"
+    }
+    64%{
+        content: "Front-"
+    }
+    66%{
+        content: "Front"
+    }
+    68%{
+        content: "Fron"
+    }
+    70%{
+        content: "Fro"
+    }
+    72%{
+        content: "Fr"
+    }
+    74%{
+        content: "F"
+    }
+    76%{
+        content: ""
+    }
+    78%{
+        content: "W"
+    }
+    80%{
+        content: "We"
+    }
+    81%{
+        content: "Web"
+    }
+    82%{
+        content: "Web D"
+    }
+    83%{
+        content: "Web De"
+    }
+    84%{
+        content: "Web Des"
+    }
+    85%{
+        content: "Web Desi"
+    }
+    86%{
+        content: "Web Desig"
+    }
+    87%{
+        content: "Web Design"
+    }
+    88%{
+        content: "Web Designe"
+    }
+    89%{
+        content: "Web Designer"
+    }
+    90%{
+        content: "Web Designe"
+    }
+    91%{
+        content: "Web Design"
+    }
+    92%{
+        content: "Web Desig"
+    }
+    93%{
+        content: "Web Desi"
+    }
+    94%{
+        content: "Web Des"
+    }
+    95%{
+        content: "Web De"
+    }
+    96%{
+        content: "Web D"
+    }
+    97%{
+        content: "Web"
+    }
+    98%{
+        content: "We"
+    }
+    99%{
+        content: "W"
+    }
+100%{
+    content: ""
+}
+
+}
+.home .cv button{
+    padding: 5px 30px;
+    margin-right: 50px;
+}
+.home .cv i , .contact .cv i{
+    font-size: 25px;
+    padding: 20px;
+    color:#008ec7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.home .cv i:hover , .contact .cv i:hover{
+    transform:translateY(-3px);
+}
+.color{
+    color:#008ec7 !important;
+}
+/* /////////////////////////////// end home section///////////////////// */
+
+/* /////////////////////////////// start about us section///////////////////// */
+.aboutus h2 , .skills h2 , .portofilo h2 , .service h2{
+ width: 40%;
+ border-radius: 10px;
+ padding: 5px;
+ padding-left: 10px;
+ line-height:1.5;
+ border-left: 7px solid #008ec7;
+ margin-bottom: 30px;
+}
+.aboutus ul li{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.aboutus ul li i{
+    font-size: 20px;
+    color:#008ec7;
+    margin-right: 5px;
+}
+.aboutus ul {
+    margin-top: 20px;
+}
+.aboutus ul li span{
+    font-size: 20px;
+}
+.aboutus ul li span:nth-of-type(1){
+margin-right: 30px;
+}
+/* /////////////////////////////// end about us section///////////////////// */
+/* /////////////////////////////// start skills section///////////////////// */
+.skills h2{
+    margin-bottom: 40px !important;
+}
+.skills img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 30px;
+}
+.skills .prog{
+    float: left;
+    display:block;
+}
+.skills .block{
+    margin-bottom: 40px;
+}
+.skills .prog span:nth-of-type(1){
+font-size: 25px;
+display: block;
+}
+.skills .prog p{
+display: block;
+width: 350px !important;
+height: 9px;
+border-radius: 5px;
+background: #ccc;
+position: relative;
+}
+.skills .prog .html span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width:85%;background: #008ec7;
+}
+.skills .prog .css span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 70%;background: #008ec7;
+}
+.skills .prog .js span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 60%;background: #008ec7;
+}
+.skills .prog .jq span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 75%;background: #008ec7;
+}
+.skills .prog .boot span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 93%;background: #008ec7;
+}
+.skills .prog .git span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 50%;background: #008ec7;
+}
+.skills .prog .php span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 40%;background: #008ec7;
+}
+.skills .prog .sql span{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 60%;background: #008ec7;
+}
+/* /////////////////////////////// start skills section///////////////////// */
+/* /////////////////////////////// start portofolio section///////////////////// */
+.portofilo{
+    padding: 100px;
+}
+.portofilo .over{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 9999999;
+    text-align: center;
+    display: none;
+}
+.portofilo .over i {
+    color:#fff;
+   font-size:25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portofilo #course:hover .over,
+.portofilo #elite:hover .over,
+.portofilo #hotel:hover .over,
+.portofilo #killy:hover .over,
+.portofilo #service:hover .over,
+.portofilo #ahly:hover .over{
+    display: block ;
+}
+.portofilo #course{
+    background-image: url(../image/courses.png);
+}
+.portofilo #elite{
+    background-image: url(../image/elite.png);
+}
+.portofilo #hotel{
+    background-image: url(../image/hotel.png);
+}
+.portofilo #killy{
+    background-image: url(../image/killy.png);
+}
+.portofilo #service{
+    background-image: url(../image/services.png);
+}
+.portofilo #ahly{
+    background-image: url(../image/ahly.png);
+}
+.portofilo #course ,.portofilo #elite , .portofilo #hotel , .portofilo #killy , .portofilo #service , .portofilo #ahly{
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 500px !important;
+    transition: 10s;
+    border-radius: 20px;
+    margin:auto;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-position: top;
+    background-size: cover;
+}
+.portofilo #course:hover,
+.portofilo #hotel:hover,
+.portofilo #killy:hover,
+.portofilo #elite:hover,
+.portofilo #service:hover,
+.portofilo #ahly:hover{
+    background-position:bottom;
+    }
+    /* /////////////////////////end portofilo section////////////////// */
+
+/* //////////////// start service section  ///////////// */
+.service h2{
+    margin: 50px 0;
+    width: 25%;
+}
+.service .info{
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.service .info i{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color:#008ec7;
+}
+.service .info p{
+    color:#7A7777 !important;
+}
+@media(max-width:992px){
+    .service h2{
+        width: 60%;
+    } 
+}
+/* //////////////// end service section  ///////////// */
+.contact a:hover{
+text-decoration:none;
+}
